@@ -56,6 +56,7 @@ describe("Sustainability integration test", () => {
       console.log(err);
     }
   });
+  
   test(" expect GET /api/sustainability/search to fail", async () => {
     const origin = "";
     const destination = faker.location.city();
